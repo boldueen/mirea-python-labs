@@ -1,4 +1,3 @@
-
 login = str(input("login: "))
 mail = str(input("email: "))
 
@@ -11,7 +10,13 @@ if mail.find("@") == -1:
 if login.find("@") != -1:
     is_login_correct = False
 
-print(is_login_correct, is_mail_correct)
 
-# TODO
-# is(is_login_correct and is_mail_correct):
+if (is_login_correct and is_mail_correct):
+    print("OK")
+
+else:
+    if (not is_login_correct):
+        print("Некорректный логин")
+
+    if (not is_mail_correct):
+        print("Некорректный адрес")
