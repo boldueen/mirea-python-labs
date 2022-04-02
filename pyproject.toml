@@ -7,7 +7,6 @@ repository="https://github.com/boldueen/mirea-python-labs"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-termcolor = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
 
